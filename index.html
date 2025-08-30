@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crrraft — Download on Google Play</title>
+  <meta name="description" content="Crrraft — Tap, gather, and grow. Download on Google Play or read the docs." />
+
+  <!-- Canonical & robots -->
+  <link rel="canonical" href="https://crrraft.xyz/" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Crrraft — Download on Google Play" />
+  <meta property="og:description" content="Tap, gather, and grow. Download on Google Play or read the docs." />
+  <meta property="og:url" content="https://crrraft.xyz/" />
+  <meta property="og:image" content="https://crrraft.xyz/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon (선택) -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Fonts (시스템 폰트 우선) -->
+  <style>
+    :root{
+      --bg: #0b0c10;
+      --card: #111318;
+      --text: #e8eaed;
+      --muted: #aab0b6;
+      --accent: #7aa2ff;
+      --accent-2: #76e1b8;
+      --ring: #2a65ff33;
+      --shadow: 0 10px 30px rgba(0,0,0,.25);
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg: #ffffff;
+        --card: #f7f8fb;
+        --text: #111318;
+        --muted: #4b5563;
+        --accent: #335cff;
+        --accent-2: #10b981;
+        --ring: #2a65ff22;
+        --shadow: 0 8px 24px rgba(17,19,24,.08);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background: radial-gradient(1200px 600px at 70% -10%, var(--ring), transparent) , var(--bg);
+      color:var(--text);
+      font: 16px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Apple SD Gothic Neo, "Apple SD 산돌고딕 Neo", "Malgun Gothic", "맑은 고딕", Arial, sans-serif;
+      display:flex; align-items:center; justify-content:center; padding:40px 20px;
+    }
+    .shell{
+      width:100%; max-width:880px;
+    }
+    .card{
+      background:linear-gradient(180deg, var(--card), transparent 80%) , var(--card);
+      border:1px solid rgba(255,255,255,.06);
+      border-radius:28px; padding:40px 28px; box-shadow:var(--shadow);
+      backdrop-filter:saturate(1.1) blur(6px);
+    }
+    .brand{ display:flex; gap:16px; align-items:center; margin-bottom:18px;}
+    .logo{
+      width:44px; height:44px; border-radius:12px;
+      background: conic-gradient(from 220deg, var(--accent), var(--accent-2));
+      box-shadow:0 6px 18px rgba(122,162,255,.35);
+    }
+    h1{ margin:0; font-size:28px; letter-spacing:.2px;}
+    p.lead{ margin:6px 0 22px; color:var(--muted); font-size:15px}
+    .panel{
+      display:grid; grid-template-columns:1fr; gap:16px;
+    }
+    @media (min-width:700px){ .panel{ grid-template-columns:1fr 1fr; } }
+    .cta{
+      display:flex; flex-direction:column; gap:14px; padding:18px; border:1px dashed rgba(255,255,255,.12);
+      border-radius:16px; background:rgba(255,255,255,.02);
+    }
+    .cta h3{margin:0 0 4px; font-size:18px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:10px;
+      padding:12px 16px; border-radius:12px; text-decoration:none; font-weight:600;
+      transition: transform .06s ease, box-shadow .2s ease; will-change:transform;
+      box-shadow:0 6px 18px rgba(42,101,255,.18);
+    }
+    .btn:hover{ transform: translateY(-1px); }
+    .btn:active{ transform: translateY(0); }
+    .btn.play{ background:var(--accent); color:#fff; }
+    .btn.docs{ background:transparent; color:var(--text); border:1px solid rgba(255,255,255,.18); }
+    .links{ display:flex; gap:12px; flex-wrap:wrap; margin-top:6px;}
+    .foot{
+      display:flex; justify-content:space-between; gap:12px; margin-top:22px; color:var(--muted); font-size:13px;
+      flex-wrap:wrap;
+    }
+    .hint a{ color:var(--muted); }
+    .note{
+      margin-top:16px; font-size:13px; color:var(--muted)
+    }
+    /* Focus ring */
+    a:focus-visible, .btn:focus-visible{
+      outline:3px solid var(--ring); border-radius:14px;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="card" role="region" aria-labelledby="hero-title">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1 id="hero-title">Download Crrraft on Google Play</h1>
+          <p class="lead">Tap, gather, and grow. Start your journey now.</p>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="cta" aria-labelledby="dl-title">
+          <h3 id="dl-title">Get the app</h3>
+          <div class="links">
+            <a class="btn play" href="https://play.google.com/store/apps/details?id=com.crrraftstudio.crrraft.crrraft&pcampaignid=web_share" target="_blank" rel="noopener">
+              <!-- Play icon -->
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 22V2l15 10L3 22z"/></svg>
+              Download on Google Play
+            </a>
+          </div>
+          <p class="note">If the button doesn’t work, <a href="https://play.google.com/store/apps/details?id=com.crrraftstudio.crrraft.crrraft&pcampaignid=web_share" target="_blank" rel="noopener">open the link directly</a>.</p>
+        </div>
+
+        <div class="cta" aria-labelledby="docs-title">
+          <h3 id="docs-title">Docs</h3>
+          <p class="hint">Read the latest documentation and updates.</p>
+          <div class="links">
+            <a class="btn docs" href="https://crrraft.gitbook.io/" target="_blank" rel="noopener">
+              <!-- Book icon -->
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 4.5A2.5 2.5 0 0 1 5.5 2H21v18H5.5A2.5 2.5 0 0 0 3 22V4.5zM6 6h12V4H6v2zm0 5h12V9H6v2zm0 5h12v-2H6v2z"/></svg>
+              Open Docs
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="foot">
+        <span>© <span id="y"></span> Crrraft</span>
+        <a href="/app-ads.txt">app-ads.txt</a>
+      </div>
+    </section>
+  </main>
+  <script>
+    // 연도 자동 표시
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
